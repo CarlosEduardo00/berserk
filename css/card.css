@@ -52,7 +52,8 @@ body .container .card .box {
 }
 
 body .container .card .box:hover {
-  transform: translateY(-11px);
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 body .container .card .box:before {
@@ -110,4 +111,18 @@ body .container .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
+}
+
+@media (max-width: 576px){
+    body .container .card {
+    position: relative;
+    min-width: 350px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+                inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+                5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+    transition: 0.5s;
+  }
 }
