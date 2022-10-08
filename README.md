@@ -14,7 +14,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 - HTML;
 - CSS;
-- Js
+- Js;
 
 ## ⚙️ Ajustes e melhorias
 

@@ -21,7 +21,7 @@ body .container {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: 40px 0;
+  margin: 0 auto;
 }
 
 body .container .card {
